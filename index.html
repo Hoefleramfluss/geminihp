@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workflow.AI – KI-Agenten für Praxis, Werkstatt & Gastro | Fair, transparent, made in Austria</title>
+  <meta name="description" content="Voice- & Chat-Agenten, die Termine buchen, Daten erfassen und Routinearbeit übernehmen. WorkFlow.Med, WorkFlow.Tec, WorkFlow.Gastro & PersonalAgents. DSGVO-konform, faire Preise, made in Austria.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Aurora Glow Animation */
+    @keyframes aurora-float {
+        0% { transform: translate(-50%, -50%) rotate(0deg) scale(1); }
+        25% { transform: translate(-45%, -55%) rotate(45deg) scale(1.1); }
+        50% { transform: translate(-50%, -50%) rotate(90deg) scale(1); }
+        75% { transform: translate(-55%, -45%) rotate(135deg) scale(1.1); }
+        100% { transform: translate(-50%, -50%) rotate(180deg) scale(1); }
+    }
+    .aurora-glow {
+        border-radius: 9999px;
+        filter: blur(100px);
+        animation: aurora-float 15s ease-in-out infinite alternate;
+    }
+    
+  </style>
+  <script type="importmap">
+  {
+    "imports": {
+      "react": "https://aistudiocdn.com/react@^19.1.1",
+      "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+      "react/": "https://aistudiocdn.com/react@^19.1.1/"
+    }
+  }
+  </script>
+</head>
+<body class="bg-[#0a0a0a]">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
